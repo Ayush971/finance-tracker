@@ -1,0 +1,17 @@
+.lineTab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centers content horizontally */
+    justify-content: center;  /* Centers content vertically */
+    height: 100%;  /* Ensures the pie chart container takes up full height */
+    text-align: center;  /* Centers the heading text */
+  }
+  
+  .lineGraph {
+    width: 70vh;  /* Set the size of the chart container */
+    height: 45vh;
+    display: flex;
+    justify-content: center;  /* Centers the Pie chart horizontally */
+    align-items: center;  /* Centers the Pie chart vertically */
+  }
+  

@@ -1,0 +1,16 @@
+.tasks {
+  flex: 1;
+  background-color: #1b1b1b;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.tasks table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tasks td {
+  padding: 10px;
+  text-align: left;
+}

@@ -1,0 +1,19 @@
+
+
+.pieTab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centers content horizontally */
+    justify-content: center;  /* Centers content vertically */
+    height: 100%;  /* Ensures the pie chart container takes up full height */
+    text-align: center;  /* Centers the heading text */
+  }
+  
+  .pieChart {
+    width: 45vh;
+    height: 45vh;
+    display: flex;
+    justify-content: center;  /* Centers the Pie chart horizontally */
+    align-items: center;  /* Centers the Pie chart vertically */
+  }
+  

@@ -1,0 +1,70 @@
+.dashboard {
+  height: calc(100vh); 
+  overflow-y: auto; 
+}
+
+.dashboard-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  gap: 20px;
+}
+  
+.tasks {
+  flex: 1; 
+  background-color: #1B1B1B; 
+  padding: 20px;
+  border-radius: 8px; 
+}
+ 
+.tasks table {
+  width: 100%;
+  border-collapse: collapse;
+}
+  
+.tasks td {
+  padding: 10px;
+  text-align: left;
+}
+
+.quick-access {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #1B1B1B;
+  padding: 5px 20px;
+  border-radius: 8px;
+}
+
+.quick-access h4 {
+  margin-bottom: 10px;  
+  margin-top: 10px;
+}
+  
+.quick-access-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top  : 20px;
+}
+  
+.quick-access-buttons button {
+  background-color: #28282A;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+.monthly-report {
+  display: flex;
+  justify-content: space-between;
+}
+    
+.team-spending, .day-expenses {
+  background-color: #1B1B1B;
+  padding: 20px;
+  border-radius: 10px;
+  width: 48%;
+}
+    

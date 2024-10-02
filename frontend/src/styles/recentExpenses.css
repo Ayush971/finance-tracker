@@ -1,0 +1,16 @@
+.recent-expenses {
+    flex: 1.5; 
+    background-color: #1B1B1B; 
+    padding: 20px;
+    border-radius: 8px; 
+  }
+    
+  .recent-expenses table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+    
+  .recent-expenses th, .recent-expenses td {
+    padding: 10px;
+    text-align: left;
+  }

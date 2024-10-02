@@ -1,0 +1,84 @@
+.success-message {
+    color: green;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; /* Ensure it appears above everything */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: A background overlay */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+.form-box {
+    background-color: #1B1B1B;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+  
+.form-box h2 {
+    margin-bottom: 20px;
+}
+  
+.items {
+    margin-bottom: 15px;
+}
+  
+.items label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.items input,
+.items select
+ {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px; 
+    resize: none;
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    font-size: 14px;
+  }
+  
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.form-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+}
+  
+.form-buttons button[type="submit"] {
+    background-color: #28a745;
+}
+  
+.form-buttons button[type="button"] {
+    background-color: #dc3545;
+}
+  

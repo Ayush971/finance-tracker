@@ -1,0 +1,53 @@
+
+.profile-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.menu li i {
+  margin-right: 10px; /* Adjust this value to increase/decrease spacing */
+}
+
+.menu li span {
+  font-size: 16px;
+}
+
+.menu li a {
+  color: white; /* Ensure the text color is the same as the other list items */
+  text-decoration: none; /* Remove the underline */
+  display: flex; /* Keep the flexbox layout consistent with other li elements */
+  align-items: center;
+  padding: 10px 20px; /* Match padding */
+}
+
+.menu li a:hover {
+  color: lightgray; /* Optional: Add a hover effect if desired */
+}
+
+.menu li a i {
+  margin-right: 10px; /* Keep the icon spacing consistent */
+}
+
+.menu li a span {
+  font-size: 16px; /* Same text size as other items */
+}
